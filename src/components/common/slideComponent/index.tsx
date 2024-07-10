@@ -37,8 +37,8 @@ const SlideComponent = function ({ course }: props) {
                 drag: course.length > 2 ? true : false,
               },
               600: {
-                perPage: 300,
                 width: 1,
+                perPage: 300,
                 arrows: course.length > 1 ? true : false,
                 drag: course.length > 1 ? true : false,
               },
